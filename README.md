@@ -13,5 +13,3 @@ A simple password generator built using HTML, CSS, and JavaScript.
 - CSS
 - JavaScript
 
-## Live Demo
-(Add GitHub Pages link here)
