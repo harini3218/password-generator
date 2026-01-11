@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #1e1e2f; /* classic dark */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #ffffff;
+  width: 320px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+#password {
+  width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+.options input[type="number"] {
+  margin-left: 5px;
+  width: 60px;
+  padding: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 9px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Generate button */
+button:first-of-type {
+  background: #2563eb; /* classic blue */
+  color: #ffffff;
+}
+
+button:first-of-type:hover {
+  background: #1d4ed8;
+}
+
+/* Copy button */
+button:last-of-type {
+  background: #e5e7eb; /* soft gray */
+  color: #111827;
+}
+
+button:last-of-type:hover {
+  background: #d1d5db;
+}
